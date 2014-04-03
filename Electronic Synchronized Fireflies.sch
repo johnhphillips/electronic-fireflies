@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1132,7 +1132,9 @@ http://focus.ti.com/docs/prod/folders/print/msp430g2231.html &lt;br&gt;</descrip
 <sheet>
 <plain>
 <text x="266.7" y="7.62" size="2.54" layer="94">v1.1</text>
-<text x="233.68" y="7.62" size="2.54" layer="94">N/A</text>
+<text x="205.74" y="7.62" size="2.54" layer="94">N/A</text>
+<text x="175.26" y="25.4" size="2.54" layer="94">ELECTRONIC SYNCHRONIZED FIREFLY SCHEMATIC, 
+VERSION 1.1</text>
 </plain>
 <instances>
 <instance part="D1" gate="G$1" x="27.94" y="134.62" smashed="yes">
@@ -1518,4 +1520,10 @@ http://focus.ti.com/docs/prod/folders/print/msp430g2231.html &lt;br&gt;</descrip
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
