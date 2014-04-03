@@ -213,3 +213,14 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+*.b#1
+*.b#2
+*.b#3
+*.l#1
+*.l#2
+*.l#3
+*.scr
+*.s#2
+*.s#1
+*.l#4
+*.pro
