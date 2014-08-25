@@ -951,12 +951,21 @@ chip</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LDR" prefix="R">
+<deviceset name="LDR" prefix="LDR">
 <gates>
 <gate name="G$1" symbol="LDR" x="0" y="2.54"/>
 </gates>
 <devices>
 <device name="" package="LDR5MM">
+<connects>
+<connect gate="G$1" pin="1" pad="A"/>
+<connect gate="G$1" pin="2" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="RTANGLEHOLDER" package="LED5MMRT">
 <connects>
 <connect gate="G$1" pin="1" pad="A"/>
 <connect gate="G$1" pin="2" pad="K"/>
